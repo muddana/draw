@@ -14,4 +14,6 @@ iDraw.js is the base class foro various *Draw.js classes but have not refactored
 
 Undo is not implemented.
 
+Select tool does not do much, need to add behaviour to select tool.
+
 
