@@ -6,7 +6,7 @@ Uses prototype.js
 
 main.js is the file which gets loaded first which sets up the initializations.
 
-pag.js contains the PagManager class which takes care of interaction with the canvas(and its contexts) as well as redirecting the click events to corresponding draw classes. All the interactions with the draw classes and the canvas has to be directed through this class.
+pad.js contains the PadManager class which takes care of interaction with the canvas(and its contexts) as well as redirecting the click events to corresponding draw classes. All the interactions with the draw classes and the canvas has to be directed through this class.
 
 Various *Draw.js files are classes which take care of the handling the drawing. The classes themselves take care of handling events once they are started.
 
