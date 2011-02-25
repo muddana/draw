@@ -1,0 +1,9 @@
+Javascript files for a simple draw application(try it out at http://picturethis.heroku.com/). 
+
+main.js is the file which gets loaded first which sets up the initializations.
+
+pag.js contains the PagManager class which takes care of interaction with the canvas(and its contexts) as well as redirecting the click events to corresponding draw classes.
+
+Various *Draw.js files are classes which take care of the handling the drawing. The classes themselves take care of handling events for now.
+
+Undo is not implemented.
